@@ -1,0 +1,369 @@
+/*------gerais-------*/
+
+* {
+    box-sizing: border-box;
+    font-family: lato;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+/*------gerais-------*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 2%;
+    width: 100%;
+}
+
+/*-header-*/
+header {
+    background-color: #3b5999;
+    height: 82px;
+}
+
+/*-header-*/
+
+
+/*-Logo-*/
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+
+.logo h2  {
+    font-size: 38px;
+    color: white;
+}
+/*-Logo-*/
+
+
+/*-----form-login-------*/
+.form-wraper-login form {
+    margin-top: 16px;
+    float: right;
+}
+
+
+.form-wraper-login form input {
+    border: 1px solid #1d2a5b;
+    padding: 2px;
+}
+
+.form-wraper-login form input[type=submit] {
+    background-color: #3a6abc;
+    border: 1px solid #29487d;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 6px;
+}
+
+.form-wraper-login form input[type=submit]:hover {
+    background-color: #294982;
+    cursor: pointer;
+}
+
+.email-element, .senha-element, .button-element{
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.email-element label, .senha-element label {
+    color: white;
+    display: block;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.txt-element {
+    margin-top: 1px;
+    margin-left: 35px;
+}
+
+.txt-element p {
+    color: #9cb4d8;
+    font-size: 13px;
+    text-align: center;
+}
+
+.txt-element p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*-----form-login-------*/
+
+
+/*--------img-peoples----------*/
+.main {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 30px 0;
+}
+
+.img-peoples {
+    float: left;
+    margin-right: 10%;
+    width: 50%;
+}
+.img-peoples img {
+    max-width: 550px;
+}
+.img-peoples h3 {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    max-width: 460px;
+}
+
+/*-----------img-peoples---------*/
+
+
+/*---------open-account--------*/
+
+.open-account {
+    float: left;
+    width: 40%;
+}
+
+.open-account h2 {
+    color: #333;
+    font-size: 35px;
+}
+
+.open-account h3 {
+    color: #333333;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*---------open-account--------*/
+
+
+/*----------form-register-width--------*/
+.w50 {
+    float: left;
+    padding: 5px 5px 0 0;
+    width: 50%;
+}
+
+.w100 {
+    float: left;
+    padding: 5px 5px 0 0;
+    width: 100%;
+}
+
+.create-account input {
+    width: 100%;
+}
+
+/*----------form-register--------*/
+
+
+/*-------w100-styles------*/
+
+.w100 label{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.w100 h3{
+    color: #90949c;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*-------w100-styles------*/
+
+
+/*-----form-regiter-styles----*/
+
+.create-account input[type=email],
+.create-account input[type=password],
+.create-account input[type=text] {
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    height: 38px;
+    padding: 8px 10px;
+}
+
+.create-account input[type=submit] {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border: 1px solid #69a74e;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+.create-account input[type=submit]:hover {
+    background: linear-gradient(#81d66c, #75b85b);
+    background-color: #67ae55;
+}
+
+.create-page {
+    margin-top: 20px;
+    width: 350px;
+}
+
+.create-page p {
+    color: #666666;
+    font-size: 13px;
+}
+
+.create-page a {
+    color: #385898;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.birth {
+    border: 1px solid #ccd0d5;
+    float: left;
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.input-radio{
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.input-radio label{
+    display: inline-block;
+    color: #333333;
+    padding: 5px 10px 0 5px;
+}
+ .input-radio input[type=radio]{ 
+    display: inline-block;
+    width: auto !important;
+}
+
+.terms {
+    color: #777777;
+    font-size: 11px;
+    margin: 10px 5px 15px 0px;
+    max-width: 300px;
+}
+
+.terms a {
+    color: #385898;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*-----form-regiter-styles----*/
+
+
+/*----placeholder-----*/
+::-webkit-input-placeholder {
+    color: #b5b5b5;
+    font-size: 17px;
+    font-weight: bold;
+ }
+ /*---placeholder----*/
+
+
+
+ /*---footer---*/
+
+footer {
+    height: -1000px;
+}
+
+ .idiome-list {
+    margin: 15px 0;
+ }
+
+.idiome-list a {
+    color: #365899;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.idiome-list a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line {
+    border: 1px solid #dddfe2;
+    width: 100%;
+}
+
+.fb-footer p {
+    color: #777777;
+    font-size: 12px;
+    margin: 25px 0 20px 0;
+}
+
+.fb-footer p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*-------mediasQ------*/
+
+@media screen and (max-width: 950px) {
+    .img-peoples {
+        display: none;
+    }
+    .open-account {
+        max-width: 500px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form-wraper-login form {
+        float: right;
+        margin-top: 16px;
+    }
+
+    .form-wraper-login form {
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
+
+    .open-account {
+        max-width: 500px;
+        width: 90%;
+    }
+
+    .open-account h3 {
+        padding-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .create-page {
+        max-width: 300px;
+    }
+
+    .open-account {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+/*-------mediasQ------*/
